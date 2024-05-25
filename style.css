@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+.container{
+    max-width: 80%;
+    margin: 20px auto;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+}
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sriracha',cursive;
+   
+}
+p{ 
+    
+    font-size: 17px;
+    text-align: center;
+}
+.container form{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+input,textarea{
+    display: block;
+    width: 80%;
+    border-radius: 6px;
+
+    margin: 8px 8px;
+    padding: 5px;
+    font-size: 16px;
+}
+button{
+margin: auto;
+padding: 7px;
+border: 2px solid white;
+background-color: purple;
+border-radius: 7px;
+color: white;
+
+}
+
+.submitmsg{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+}

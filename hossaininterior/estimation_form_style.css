@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.estimation-form{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .15);
+    width: 50%;
+    min-height: 40vh;
+    margin: 10% auto;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.estimation-form .form-group{
+    width: 100%;
+    color: black;
+    padding: 20px;
+    display: flex;
+}
+
+label{
+    width: 100px;
+}
+input , select{
+    width: 200px;
+}
+
+.submit{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    width: auto;
+    padding: 7px 26px;
+    border-radius: 10px;
+    background: #eb595f;
+    color: white;
+    border: 2px solid white;
+}
+
+::placeholder{
+    margin: auto;
+    justify-content: center;
+    text-align:left;
+}
+
+
+.bhk-left-button-select{
+    width: 20px;
+    height: 20px;
+    background-color: #eb595f;
+    border-radius: 50%;
+}
+
+.bhk-div{
+    display: flex;
+    margin: 20px auto;
+}
+
+
+/* bhk page */
+
+.projecttype-select{
+    width: 50%;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .15);
+    margin: 100px;
+    padding: 20px;
+}
+
+
+.underlabel{
+    display: flex;
+}
+
+input, select {
+    width: 150px;
+}
+.form-div{
+    display: flex;
+}
